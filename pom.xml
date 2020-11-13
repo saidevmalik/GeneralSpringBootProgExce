@@ -60,16 +60,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-		<snapshotRepository>
-			<id>nexus</id>
-			<url>http://13.71.24.200:8081/repository/simpleapp-release</url>
-		</snapshotRepository>
-		<repository>
-             <id>nexus</id>
-             <url>http://13.71.24.200:8081/repository/simpleapp-release</url>
-       	     </repository>
-	</distributionManagement>
 	
 
 
