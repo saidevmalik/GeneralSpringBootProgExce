@@ -60,12 +60,11 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-        <repository>
-    distributionManagement>
-    <repository>
-        <id>gunu</id>
-        <url>http://13.71.24.200:8081/repository/halloworld-snapshot</url>
-    </repository>
+    <distributionManagement>
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>http://13.71.24.200:8081/repository/halloworld-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
 </distributionManagement>   
 </project>
