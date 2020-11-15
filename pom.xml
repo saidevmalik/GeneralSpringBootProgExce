@@ -60,4 +60,14 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>Deployment</id>
+			<url>http://13.94.33.175:8081/repository/halloworld/</url>
+		</snapshotRepository>
+		<repository>
+             <id>deployment</id>
+             <url>http://13.94.33.175:8081/repository/halloworld/</url>
+       	     </repository>
+	</distributionManagement>
 </project>
